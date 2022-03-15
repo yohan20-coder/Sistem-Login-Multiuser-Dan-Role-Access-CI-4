@@ -1,0 +1,37 @@
+CRITICAL - 2022-01-12 09:36:05 --> Undefined variable: getResult
+#0 D:\My Project\Codeigniter4\appWedding\app\Controllers\Gawe.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\My Project\\C...', 14, Array)
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Gawe->index()
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gawe))
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#6 {main}
+CRITICAL - 2022-01-12 09:38:34 --> Undefined variable: db
+#0 D:\My Project\Codeigniter4\appWedding\app\Controllers\BaseController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\My Project\\C...', 51, Array)
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#6 {main}
+CRITICAL - 2022-01-12 09:39:03 --> Undefined variable: db
+#0 D:\My Project\Codeigniter4\appWedding\app\Controllers\Gawe.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\My Project\\C...', 9, Array)
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Gawe->index()
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gawe))
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#6 {main}
+ERROR - 2022-01-12 21:37:51 --> Unknown column 'tgl_gawe' in 'field list'
+CRITICAL - 2022-01-12 21:37:51 --> Unknown column 'tgl_gawe' in 'field list'
+#0 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\My Project\Codeigniter4\appWedding\app\Controllers\Gawe.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Gawe->store()
+#6 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gawe))
+#7 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#10 {main}

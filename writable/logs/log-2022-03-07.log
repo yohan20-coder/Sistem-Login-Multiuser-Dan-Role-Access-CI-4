@@ -1,0 +1,9 @@
+CRITICAL - 2022-03-07 20:24:08 --> isLoggeIn filter must have a matching alias defined.
+#0 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Filters\Filters.php(496): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('isLoggeIn')
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('home')
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('home', 'before')
+#4 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#7 {main}

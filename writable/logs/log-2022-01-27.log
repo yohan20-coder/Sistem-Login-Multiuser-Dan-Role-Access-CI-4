@@ -1,0 +1,26 @@
+ERROR - 2022-01-27 05:12:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-27 05:12:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\My Project\Codeigniter4\appWedding\app\Controllers\Gawe.php(10): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Gawe->index()
+#4 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gawe))
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#8 {main}
+CRITICAL - 2022-01-27 06:21:20 --> Trying to get property 'id_gawe' of non-object
+#0 D:\My Project\Codeigniter4\appWedding\app\Views\gawe\get.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\My Project\\C...', 59, Array)
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\My Project\\C...')
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('gawe/get', Array, true)
+#4 D:\My Project\Codeigniter4\appWedding\app\Controllers\Gawe.php(12): view('gawe/get', Array)
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Gawe->index()
+#6 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gawe))
+#7 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#10 {main}

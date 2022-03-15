@@ -1,0 +1,12 @@
+ERROR - 2022-01-05 07:03:59 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-05 07:03:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Database\Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Database\Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 D:\My Project\Codeigniter4\appWedding\app\Config\Routes.php(35): CodeIgniter\Database\Config::forge()
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(780): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#8 {main}

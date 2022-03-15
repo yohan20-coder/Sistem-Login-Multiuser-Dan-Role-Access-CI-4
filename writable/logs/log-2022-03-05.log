@@ -1,0 +1,24 @@
+CRITICAL - 2022-03-05 20:38:46 --> Undefined variable: post
+#0 D:\My Project\Codeigniter4\appWedding\app\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\My Project\\C...', 21, Array)
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->loginProcess()
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#6 {main}
+CRITICAL - 2022-03-05 20:40:15 --> Undefined index: email
+#0 D:\My Project\Codeigniter4\appWedding\app\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\My Project\\C...', 21, Array)
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->loginProcess()
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#6 {main}
+CRITICAL - 2022-03-05 20:52:34 --> Trying to get property 'id_user' of non-object
+#0 D:\My Project\Codeigniter4\appWedding\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\My Project\\C...', 25, Array)
+#1 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Auth->loginProcess()
+#2 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\My Project\Codeigniter4\appWedding\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\My Project\Codeigniter4\appWedding\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\My Project\\C...')
+#6 {main}
